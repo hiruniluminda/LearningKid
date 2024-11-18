@@ -1,0 +1,47 @@
+/* src/components/Footer.css */
+
+footer {
+    background-color: #2d2d2d;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #ccc;
+  }
+  
+  footer p a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  footer i.fa {
+    margin-right: 5px;
+    color: #ff6600;
+  }
+  
+  @media (max-width: 768px) {
+    footer .container {
+      flex-direction: column;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,146 @@
+.features-container {
+  padding: 60px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.courses-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 70px;
+  padding: 30px;
+  scrollbar-width: large; /* Firefox */
+  scrollbar-color: #717070 transparent; /* Firefox */
+}
+
+.courses-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.courses-list::-webkit-scrollbar-thumb {
+  background-color: #aebdda;
+  border-radius: 10px;
+}
+
+.course-card {
+  flex: 0 0 350px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  height: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.course-image {
+  width: 420px;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.course-price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.course-rating {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #dee90b;
+  font-size:larger; /* Star color */
+}
+
+.reviews-text {
+  color: #666;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.course-description {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.course-card:hover .course-title {
+  color: #007bff;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.learn-button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.learn-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.heading-with-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.heading-with-lines::before,
+.heading-with-lines::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #17a2b8; /* Change color as needed */
+  margin: 0 15px; /* Adjust space between line and text */
+}

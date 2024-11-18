@@ -1,0 +1,92 @@
+/* src/components/CourseCarousel.css */
+
+.section.courses {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section.courses .section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section.courses .section-heading h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Owl Carousel Styling */
+  .owl-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .owl-carousel .item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .owl-carousel .item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .owl-carousel .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .owl-carousel .down-content {
+    margin-top: 20px;
+  }
+  
+  .owl-carousel .down-content h4 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .owl-carousel .down-content p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0 20px 0;
+  }
+  
+  .owl-carousel .author-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .owl-carousel .text-button-free a,
+  .owl-carousel .text-button-pay a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+  /* Responsive Carousel */
+  @media (max-width: 768px) {
+    .owl-carousel {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .owl-carousel .item {
+      width: 100%;
+    }
+  }
+  

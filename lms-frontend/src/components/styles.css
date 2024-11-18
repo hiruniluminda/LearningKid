@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5; /* Light background for better contrast */
+}
+
+.app-container {
+    display: flex;
+}
+
+.dashboard-container {
+    display: flex; /* Use flexbox for the main layout */
+    height: 100vh; /* Full height for the container */
+}
+
+.sidebar {
+    width: 200px; /* Set a fixed width for the sidebar */
+    background: #333; /* Sidebar background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the sidebar */
+    height: 100vh; /* Full height */
+    position: fixed; /* Keep the sidebar fixed on the left */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.sidebar h2 {
+    text-align: center; /* Center the sidebar title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.sidebar ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin-top: 50px;
+}
+
+.sidebar ul li {
+    padding: 10px; /* Add padding to each list item */
+    margin-bottom: 20px;
+}
+
+.sidebar ul li:hover {
+    background: #5a5a5a; /* Change background on hover */
+}
+
+.sidebar ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.main-content {
+    margin-left: 230px; /* Space for the sidebar */
+    flex-grow: 1; /* Allow main content to grow */
+    padding: 0px 20px 0px 20px; /* Add padding for the main content */
+    background: white; /* Background color for the main content */
+    height: 100vh; /* Full height for the content area */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add a border below the header */
+}
+
+.dashboard {
+    margin-top: 20px; /* Space above the dashboard area */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Space below the cards */
+}
+
+.stats-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 24%; /* Adjust width for four cards in a row */
+    border-radius: 5px;
+    text-align: center;
+    background: #fafafa; /* Light background for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-table th {
+    background: #f4f4f4; /* Light background for header */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f4f4f4;
+    position: relative; /* Allow footer to be at the bottom of the content */
+}
+
+

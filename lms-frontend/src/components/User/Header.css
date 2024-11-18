@@ -1,0 +1,116 @@
+.main-header {
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-header .logo {
+  float: left;
+}
+
+.main-header .logo a {
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-header .logo em {
+  font-style: normal;
+  color: #fff;
+}
+
+.main-header .menu-link {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.main-nav {
+  float: right;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+  scroll-behavior: smooth;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+.main-nav ul li a:hover {
+  color: #ff6600;
+}
+
+.main-nav ul li.has-submenu:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu li {
+  display: block;
+  margin: 0;
+}
+
+.sub-menu li a {
+  color: #fff;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.sub-menu li a:hover {
+  color: #ff6600;
+}
+
+.external {
+  color: #ff6600;
+}
+
+.external:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+
+  .main-header .menu-link {
+    display: inline-block;
+    float: right;
+  }
+
+  .main-nav ul li {
+    display: block;
+    margin: 0;
+  }
+
+  .main-nav ul li a {
+    display: block;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,91 @@
+/* src/components/VideoSection.css */
+
+.video {
+    padding: 60px 0; /* Add padding to the section */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .video .container {
+    max-width: 1200px; /* Set a max width for the container */
+  }
+  
+  .video .row {
+    align-items: center; /* Center items vertically */
+  }
+  
+  .left-content {
+    padding-right: 30px; /* Space between text and video */
+  }
+  
+  .left-content span {
+    display: block;
+    font-size: 14px;
+    color: #777; /* Gray color for the subtitle */
+    margin-bottom: 10px;
+  }
+  
+  .left-content h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .left-content p {
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  .main-button a {
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-button a:hover {
+    background-color: #e65c00; /* Darker shade on hover */
+  }
+  
+  .video-item {
+    text-align: center; /* Center align the video item */
+  }
+  
+  .video-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .video-item figure {
+    position: relative; /* Position for overlay effects */
+  }
+  
+  .video-item img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 5px; /* Rounded corners for the thumbnail */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+  }
+  
+  .video-item img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+  }
+  
+  .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the play button */
+    display: inline-block;
+    color: #fff; /* Play button color */
+    font-size: 40px; /* Play button size */
+    text-decoration: none; /* Remove underline */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 50%; /* Round shape */
+    padding: 15px; /* Padding around the button */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .play:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker background on hover */
+  }
+  

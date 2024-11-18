@@ -1,0 +1,71 @@
+/* src/components/MainBanner.css */
+
+.main-banner {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  #bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text contrast */
+  }
+  
+  .header-text {
+    text-align: center;
+    color: #fff; /* White text color */
+  }
+  
+  .header-text h6 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .header-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .header-text h2 em {
+    color: #ff6600; /* Highlight color for 'Your' */
+  }
+  
+  .main-button {
+    margin-top: 20px;
+  }
+  
+  .main-button .scroll-to-section {
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-button .scroll-to-section:hover {
+    background-color: #e65c00; /* Darker shade on hover */
+  }
+  

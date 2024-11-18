@@ -1,0 +1,19 @@
+/* src/App.css */
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.item {
+  /* Add styles for each course item */
+}
+
+.author-image img {
+  /* Add styles for author images */
+}
+
+/* Add additional styles based on your original CSS */

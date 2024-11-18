@@ -1,0 +1,116 @@
+/* src/components/ComingSoon.css */
+
+.coming-soon {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .coming-soon .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .coming-soon h4 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .coming-soon h4 em {
+    font-style: italic;
+    color: #ff6600;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .counter .value {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .counter span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .right-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .top-content {
+    margin-bottom: 20px;
+  }
+  
+  .top-content h6 {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .top-content h6 em {
+    font-style: italic;
+    color: #ff6600;
+  }
+  
+  #contact {
+    margin-top: 20px;
+  }
+  
+  #contact input {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  #contact button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #e65500;
+  }
+  
+  @media (max-width: 768px) {
+    .counter {
+      flex-wrap: wrap;
+    }
+  
+    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+      margin: 10px 0;
+      padding: 15px;
+    }
+  
+    .right-content {
+      margin-top: 30px;
+    }
+  }
+  

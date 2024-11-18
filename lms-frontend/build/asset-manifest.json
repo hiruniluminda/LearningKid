@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b3c20b4.css",
+    "main.js": "/static/js/main.f9d2305d.js",
+    "static/media/course-video.mp4": "/static/media/course-video.f3257b9e04f0b8148465.mp4",
+    "static/media/main-thumb.png": "/static/media/main-thumb.b05815c5a53c6b8d8f36.png",
+    "static/media/courses-02.jpg": "/static/media/courses-02.6cb3f93f2b241ddca6ef.jpg",
+    "static/media/courses-01.jpg": "/static/media/courses-01.ce5d5b324a9b87740aef.jpg",
+    "index.html": "/index.html",
+    "main.0b3c20b4.css.map": "/static/css/main.0b3c20b4.css.map",
+    "main.f9d2305d.js.map": "/static/js/main.f9d2305d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b3c20b4.css",
+    "static/js/main.f9d2305d.js"
+  ]
+}
